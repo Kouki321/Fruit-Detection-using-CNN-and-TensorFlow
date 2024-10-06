@@ -20,13 +20,6 @@ Before you begin, ensure you have met the following requirements:
 - **TensorFlow**: Install TensorFlow using the following command:
   ```bash
   pip install tensorflow
-# Fruit Detection using Convolutional Neural Network (CNN) and TensorFlow
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- **Python**: Make sure Python 3.x is installed on your machine.
 
 ### Streamlit
 
@@ -41,3 +34,5 @@ Install necessary dependencies such as NumPy, Pandas, Matplotlib, and OpenCV.
 To start the Streamlit application, navigate to the directory where the `app.py` file is located and run the application.
 
 The app will launch a local server, and you can interact with the fruit detection model by uploading images through the web interface.
+  ```bash
+  python -m streamlit run app.py
